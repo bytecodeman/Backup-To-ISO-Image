@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<BackupID>NEAC</BackupID>
+	<BackupSource>
+		<Location>
+			<GraftPoint>/SQLBackups/</GraftPoint>
+			<Directory>c:\sqlserverbackup\</Directory>
+		</Location>
+		<Location>
+			<GraftPoint>/WebSite/</GraftPoint>
+			<Directory>c:\Inetpub\wwwroot\</Directory>
+		</Location>
+	</BackupSource>
+	<BackupDest>C:\Users\Administrator\Google Drive\NE Archives Backups\</BackupDest>
+	<SendEmail>True</SendEmail>
+	<Email>
+		<To>silvestri@stcc.edu</To>
+		<From>nearchives@gmail.com</From>
+		<CC>louise@neac.com</CC>
+		<ReplyTo></ReplyTo>
+	</Email>
+</configuration>    
